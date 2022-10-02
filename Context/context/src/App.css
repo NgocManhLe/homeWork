@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: #999;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.body {
+  background-color: white;
+  padding: 100px;
+  /* display: none; */
+}
+
+.disable {
+  display: none;
+}
+
+.body div {
+  padding: 20px;
+  border: 1px solid #333;
+
+}
+
+.body input {
+  display: block;
+  margin: 0 auto;
+}
+
+.body button {
+  margin-top: 30px;
+  background-color: aquamarine;
+  border: 1px solid #888;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 10px
+
+}
+

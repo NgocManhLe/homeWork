@@ -1,0 +1,13 @@
+.hidden {
+    display: none !important;
+}
+.App {
+    position: relative;
+}
+.App button {
+    position: fixed;
+    display: flex;
+    margin-left: auto;
+    top:90vh;
+    right: 50px
+}

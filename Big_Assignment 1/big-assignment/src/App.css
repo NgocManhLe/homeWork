@@ -1,0 +1,168 @@
+body {
+  background-color: #999;
+
+}
+.App {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.addItem {
+  background-color: rgb(141, 55, 240);
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.btnAdd {
+  background-color: rgb(131, 4, 131);
+  width: 200px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  color: white;
+  cursor: pointer;
+}
+
+.btnAdd.true {
+  display: none;
+  
+}
+
+.formInput.false {
+  display: none;
+}
+.formInput-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 100px;
+}
+
+.formInput-item input {
+  width: 70%;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px;
+
+}
+
+.btnAdd-item {
+  display: flex;
+  margin-left: 50%;
+}
+.btnAdd-item button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.btnAdd-item button:nth-child(1) {
+  background-color: #333;
+  cursor: pointer;
+
+}
+.btnAdd-item button:nth-child(2) {
+  background-color: #888;
+  cursor: pointer;
+
+}
+
+.box {
+  background-color: #333;
+}
+
+.filterYear {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.filterYear p {
+  color: white;
+}
+
+.filterYear select {
+  padding: 0 20px;
+  height: 20px;
+  margin: auto 0;
+}
+
+.month {
+  background-color: rgb(205, 122, 238);
+  margin: 10px 40px;
+  padding: 15px 0;
+  border-radius: 10px;
+}
+
+.month-list {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.month-list li {
+  padding: 10px 10px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.month-list li span {
+  position: absolute;
+  top: 110%;
+  left: -8px;
+  font-size: 14px;
+}
+.ratio {
+  width: 10px;
+  height: 100px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+
+}
+
+.list {
+  background-color: #888;
+  margin: 10px 40px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.date {
+  background-color: #333;
+  margin: 10px;
+  width: 100px;
+  border-radius: 7px;
+  border: 1px solid white;
+}
+
+.date p {
+  margin: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+}
+
+.info h1 {
+  margin: auto 0;
+  font-size: 25px;
+  color: white;
+}
+
+.info h1:first-child{
+  padding-right: 90px;
+}
+
+.info h1:last-child {
+  padding: 5px 20px;
+  background-color: #333;
+  border-radius: 5px;
+}
